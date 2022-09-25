@@ -46,7 +46,7 @@ const AddReview = () => {
         userReviews: data.reviews,
         ratings: currentRatings,
       };
-      fetch(`http://localhost:5000/review`, {
+      fetch(`https://assignment-12-server-g2z9.vercel.app/review`, {
         method: "POST",
         headers: {
           "content-type": "application/json",

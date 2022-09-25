@@ -4,7 +4,7 @@ import { Link, useParams } from 'react-router-dom';
 import Loading from '../Shared/Loading';
 
 const ToolsDetails = () => {
-    const { toolsId } = useParams();
+    const { productId } = useParams();
 
     // const [user, loading ] = useAuthState(auth);
     const [countity, setCountity] = useState(20);
@@ -14,7 +14,7 @@ const ToolsDetails = () => {
       isLoading,
       error,
     } = useQuery("Tools", () =>
-      fetch(`http://localhost:5000/allTools/${toolsId}`).then((res) => res.json())
+      fetch(`https://assignment-12-server-g2z9.vercel.app/product/${productId}`).then((res) => res.json())
     );
   
     if (isLoading) {

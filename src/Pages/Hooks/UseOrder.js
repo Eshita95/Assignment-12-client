@@ -5,7 +5,7 @@ const UseOrder = (user) => {
 
     useEffect(() => {
       const email = user?.email;
-      const url = `http://localhost:5000/orders/${email}`;
+      const url = `https://assignment-12-server-g2z9.vercel.app/orders/${email}`;
       fetch(url)
         .then((res) => res.json())
         .then((data) => {

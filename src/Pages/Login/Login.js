@@ -34,7 +34,6 @@ const Login = () => {
   }
 
   const onSubmit = (data) => {
-    console.log(data);
     const email = data.userEmail;
     const password = data.password;
     signInWithEmailAndPassword(email, password);

@@ -17,7 +17,7 @@ const Payment = () => {
       error,
       refetch,
     } = useQuery("orders", () =>
-      fetch(`http://localhost:5000/getOrder/${paymentId}`).then((res) =>
+      fetch(`https://assignment-12-server-g2z9.vercel.app/getOrder/${paymentId}`).then((res) =>
         res.json()
       )
     );

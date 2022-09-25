@@ -83,7 +83,7 @@ const SignUp = () => {
             photoURL: result.data.display_url,
           });
 
-          fetch(`http://localhost:5000/user/${email}`, {
+          fetch(`https://assignment-12-server-g2z9.vercel.app/user/${email}`, {
             method: "PUT",
             headers: {
               "content-type": "application/json",

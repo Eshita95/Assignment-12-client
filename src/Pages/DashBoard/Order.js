@@ -18,7 +18,7 @@ const Order = ({orders}) => {
     };
   
     const removeOrder = (id) => {
-      fetch(`http://localhost:5000/order/${id}`, {
+      fetch(`https://assignment-12-server-g2z9.vercel.app/order/${id}`, {
         method: "delete",
         headers: {
           // "content-type": "application/json",

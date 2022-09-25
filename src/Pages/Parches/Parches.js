@@ -26,7 +26,7 @@ const Parches = () => {
     isLoading,
     error,
   } = useQuery("Tools", () =>
-    fetch(`http://localhost:5000/allTools/${parchesId}`).then((res) =>
+    fetch(`https://assignment-12-server-g2z9.vercel.app/allTools/${parchesId}`).then((res) =>
       res.json()
     )
   );
@@ -82,7 +82,7 @@ const Parches = () => {
       parchesDate: parchesDate,
     };
 
-    fetch(`http://localhost:5000/orders`, {
+    fetch(`https://assignment-12-server-g2z9.vercel.app/orders`, {
       method: "POST",
       headers: {
         "content-type": "application/json",

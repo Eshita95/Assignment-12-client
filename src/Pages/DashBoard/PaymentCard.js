@@ -23,7 +23,7 @@ const PaymentCard = ({myOrder}) => {
     const payPrice = 150;
   
     useEffect(() => {
-      fetch(`http://localhost:5000/payment`, {
+      fetch(`https://assignment-12-server-g2z9.vercel.app/payment`, {
         method: "POST",
         headers: {
           "content-type": "application/json",
@@ -112,7 +112,7 @@ const PaymentCard = ({myOrder}) => {
             paymentIntent,
           };
   
-          fetch(`http://localhost:5000/paymentUpdate/${_id}`, {
+          fetch(`https://assignment-12-server-g2z9.vercel.app/paymentUpdate/${_id}`, {
             method: "PATCH",
             headers: {
               "content-type": "application/json",

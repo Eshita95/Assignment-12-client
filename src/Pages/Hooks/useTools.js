@@ -4,7 +4,7 @@ const useTools = () => {
     const [tools, setTools] = useState();
 
     useEffect(() => {
-      const url = `http://localhost:5000/product`;
+      const url = `https://assignment-12-server-g2z9.vercel.app/product`;
   
       fetch(url)
         .then((res) => res.json())

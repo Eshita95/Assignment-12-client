@@ -1,0 +1,63 @@
+[
+    {
+        "name": "Summer Dress",
+        "price": "300",
+        "quantity": "1800",
+        "minimumOrder": "50",
+        "supplier": "MR. Jhon",
+        "description": "Dress the Population Women's Blair Plunging Fit and Flare Midi Dress",
+        "img": "http://www.pinkvilla.com/files/styles/large/public/summer_dresses_for_women_4.jpg?itok=H-PzWEyR"
+    },
+    {
+        
+        "name": "Summer Dress",
+        "price": "100",
+        "quantity": "1800",
+        "minimumOrder": "50",
+        "supplier": "MR. Jhon",
+        "description": "Dress the Population Women's Blair Plunging Fit and Flare Midi Dress",
+        "img": "https://dynamic.zacdn.com/o4YKCTp08xonUgtM0RcN-0j2mec=/fit-in/346x500/filters:quality(95):fill(ffffff)/https://static-ph.zacdn.com/p/lady-n-9565-6348441-1.jpg"
+    },
+    {
+        
+        "name": "Summer Dress",
+        "price": "500",
+        "minimumOrder": "50",
+        "quantity": "1800",
+        "supplier": "MR. Jhon",
+        "description": "Dress the Population Women's Blair Plunging Fit and Flare Midi Dress",
+        "img": "https://lh3.googleusercontent.com/as85n3eg4AX5I20oqZ1hxfDTL0q9hrmDp1cdHGMHM0W5vaBF_YasP0ubyDyQDRgIsu-WcUuqsxWbBNFIqSQT69Nt4nnBmxr2AQ4Y538=w500-rw"
+    },
+    {
+        
+        "name": "Summer Dress",
+        "price": "180",
+        "minimumOrder": "50",
+        "quantity": "1800",
+        "supplier": "MR. Jhon",
+        "description": "Dress the Population Women's Blair Plunging Fit and Flare Midi Dress.",
+        "img": "http://www.pinkvilla.com/files/styles/large/public/summer_dresses_for_women_3.jpg?itok=YtNnGxEf"
+    },
+    {
+        
+        "name": "Summer Dress",
+        "price": "100",
+        "quantity": "1800",
+        "minimumOrder": "30",
+        "supplier": "MR. Jhon",
+        "description": "Dress the Population Women's Blair Plunging Fit and Flare Midi Dress",
+        "img": "https://i.pinimg.com/originals/09/d3/7a/09d37ae3028017043c1631e83c579bfa.jpg"
+    },
+    {
+        
+        "name": "Summer Dress",
+        "price": "300",
+        "quantity": "1800",
+        "minimumOrder": "40",
+        "supplier": "MR. Jhon",
+        "description": "Dress the Population Women's Blair Plunging Fit and Flare Midi Dress",
+        "img": "https://assets.ajio.com/medias/sys_master/root/20211013/DMdl/61667cc8f997ddf8f1ce86dd/janasya_blue_floral_print_fit_%26_flare_dress.jpg"
+
+        
+    }
+]
